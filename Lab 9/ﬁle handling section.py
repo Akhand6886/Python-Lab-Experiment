@@ -16,5 +16,15 @@ try:
    file = open('Test file1.txt','r')
    file2 = open('Test file2.txt')
    data file.read()
-   file2.write(data.replace()) 
-   data = file.close() 
+   file2.write(data.replace('\"','\\"'))
+   file.close()
+   file2.close()
+   file2.write(data.replace('\"','\\"'))
+   data = file.close()
+   for v in file2:
+      print(v)
+except FileNotFoundError:
+   print('No such file exits in system')
+finally:
+   file2.close()
+ 
