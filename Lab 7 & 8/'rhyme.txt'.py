@@ -1,4 +1,13 @@
-#   Q2. Consider a ﬁle 'rhyme.txt' in D Drive with following text:
+#   Q2. Consider a ﬁle 'rhyme.txt' in D Drive with following text:jingle bells jingle bells 
+
+
+
+#  jingle all the way 
+#  Oh what fun it is to ride
+#  In a one horse open sleigh
+#  jingle bells jingle bells 
+#  jingle all the way 
+
 
  
 #   Write a Python program to count the words in the ﬁle using a dictionary (use space as a delimiter). 
