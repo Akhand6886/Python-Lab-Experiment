@@ -1,4 +1,14 @@
 #    Q2. Assume the following Python code-
+
+#         mylist = [1,2,3,'4',5]
+#         sum = 0
+#         for i in mylist:
+#               sum += 1
+#           print("Invelid operand type")
+#           print(sum)
+#           print(mylist[5])
+
+
 #    Rewrite the code to handle the exceptions raised. 
 #    Print appropriate error messages wherever applicable.
 
