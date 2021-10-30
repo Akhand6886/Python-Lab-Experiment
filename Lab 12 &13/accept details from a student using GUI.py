@@ -7,4 +7,10 @@
 
 
 from tkinter import *
-def submitt()
+def submitt():
+  name = uia.get()
+  m1= marks.get()
+  m2= marks.get()
+  m3= marks.get()
+  per = ((int(m1) + int(m2) + int(m3))/300)*100
+  labe = Label(window,text = "User name is ")
